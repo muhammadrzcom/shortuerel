@@ -1,0 +1,165 @@
+#metroShrink_main {
+    position:fixed;
+    width:566px;
+    height:80px;
+    top:50%;
+    left:50%;
+    margin:-40px 0 0 -245px;
+    background-color:#fff!important;
+    border:1px solid #ccc;
+    color:#777;
+    padding:5px;
+    font-Size:18px;
+    font-Family: Arial,Helvetica,sans-serif;
+    text-Align:center;
+    z-Index:100000;
+    text-Shadow:0;
+    -MozBoxShadow:0 0 2px #ccc;
+    -webkitBoxShadow:0 0 2px #ccc;
+    -boxShadow:0 0 2px #ccc;
+}
+
+#metroShrink_main #_mtro_content #_mtro_close {
+    position:absolute;
+    width:16px;
+    height:16px;
+    font-size:9pt;
+    font-weight:normal;
+    color:#222;
+    right:-2px;
+    top:0px;
+    display:block;
+    overflow:hidden;
+}
+
+#metroShrink_main #_mtro_content #_mtro_close:hover{
+    cursor:pointer;
+}
+
+#metroShrink_main #_mtro_content #_mtro_close:before {
+    content: "\D7";
+    position:absolute;
+    top:-4px;
+    left:0;    
+    width:14px;
+    height:16px;    
+    display:block;
+    text-align:center;
+    font-size:15pt;
+    line-height:15pt;
+    font-Family: Arial,Helvetica,sans-serif;
+    font-weight:bold;
+    color:#ccc;
+    z-index:9999;
+}
+
+#metroShrink_main #_mtro_content #_mtro_url:focus {
+    outline:none;
+}
+
+#metroShrink_main #_mtro_content #_mtro_url,
+#metroShrink_main #_mtro_content #_mtro_url:hover,
+#metroShrink_main #_mtro_content #_mtro_url:active{
+    margin:0;
+    position:absolute;
+    left:18px;
+    top:19px;    
+    width:auto;
+    height:auto;
+    padding:10px;
+    border:3px solid #E4E4E4;
+    font-size:16pt;
+    font-Family: Arial,Helvetica,sans-serif;
+    background:#fff;
+    color:#222;
+    -border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -border-radius: 0;  
+    text-shadow:0;  
+    -MozBoxShadow:0;
+    -webkitBoxShadow:0;
+    -boxShadow:0;
+    cursor:text;
+            
+}
+
+#metroShrink_main #_mtro_content ._mtro_social{
+    position:absolute;
+    top:13px;
+    width:64px;
+    height:64px;
+    background-image:url('share.png');
+    background-repeat:no-repeat;
+    cursor:pointer;
+}
+
+#metroShrink_main #_mtro_content #_mtro_qrcode {
+    right:222px;
+}
+
+#metroShrink_main #_mtro_content #_mtro_tw{
+    right:152px;
+    background-position:0 0;
+}
+
+#metroShrink_main #_mtro_content #_mtro_fb{
+    right:82px;
+    background-position:-64px 0;
+}
+
+#metroShrink_main #_mtro_content #_mtro_gp{
+    right:12px;
+    background-position:-128px 0;
+}
+
+[data-tip] {
+    position:relative;
+}
+
+[data-tip]:before {
+    content:'';
+    display:none;
+    border:5px solid #1a1a1a;
+    border-top-color:#1a1a1a;
+    border-right-color:transparent;
+    border-bottom-color:transparent;
+    border-left-color:transparent;
+    position:absolute;
+    top:-7px;
+    left:10px;
+    z-index:10000;
+    font-size:0;
+    line-height:0;
+    width:0;
+    height:0;
+}
+
+[data-tip]:after {
+    display:none;
+    content:attr(data-tip);
+    position:absolute;
+    top:-35px;
+    left:0;
+    padding:5px 8px;
+    background:#1a1a1a;
+    color:#fff;
+    z-index:10001;
+    font-size:.75em;
+    height:18px;
+    line-height:18px;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+    white-space:nowrap;
+    word-wrap:normal;
+}
+
+[data-tip]:hover:before,[data-tip]:hover:after {
+    display:block;
+}
+
+.arrow-center[data-tip]:before {
+    left:50%;
+    margin-left:-5px;
+}

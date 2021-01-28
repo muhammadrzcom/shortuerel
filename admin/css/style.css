@@ -1,0 +1,417 @@
+body {
+background:#fff;
+font-family:arial;
+font-size:12pt;
+color:#222;
+margin:0 auto;
+padding:0;
+text-shadow:0px 0px 1px #ccc;
+width:960px;
+}
+
+a {
+color:#3681A4;
+text-decoration:none;
+}
+
+a:hover {
+color:#2D6A89;
+}
+
+#wrapper {
+width:960px;
+margin:0 auto;
+padding:0;
+}
+
+header {
+background:#fff;
+}
+
+header .logo {
+width:400px;
+}
+
+header .logo p {
+font-size:27pt;
+font-weight:normal;
+color:#555;
+margin:20px 0;
+letter-spacing:-2px;
+}
+
+header .logged {
+font-size:11pt;
+position:relative;
+float:right;
+margin:-44px 4px 0 0;
+}
+
+header .logged span {
+font-weight:bold;
+letter-spacing:-1px;
+}
+
+ul.navigation {
+width:100%;
+height:56px;
+background:#02081D;
+margin-bottom:5px;
+}
+
+ul.navigation ul {
+list-style-image:none;
+}
+
+ul.navigation li {
+margin:12px 0 0 12px;
+color:#fff;
+font-size:10pt;
+font-weight:bold;
+float:left;
+
+}
+
+ul.navigation li a {
+padding:8px 12px;
+width:100%;
+height:auto;
+display:block;
+text-decoration:none;
+color:#fff;
+}
+
+ul.navigation li:hover,ul.navigation li.selected {
+background:#3681A4;
+border-bottom:4px solid #2D6A89;
+}
+
+ul.navigation li:active {
+margin-top:14px;
+border-bottom:2px solid #2D6A89;
+}
+
+#main {
+width:960px;
+display:inline-block;
+}
+
+#main .content {
+width:650px;
+padding:20px 20px 30px 20px;
+height:auto;
+position:relative;
+float:left;
+}
+
+#main .fullwidth {
+width:920px;
+}
+
+#main .sidebar {
+width:250px;
+position:relative;
+float:right;
+}
+
+#nav {
+width:958px;
+height:40px;
+border:1px solid #eaeaea;
+display:none;
+}
+
+footer {
+margin:20px 0 3px 0;
+font-size:8pt;
+color:#ccc;
+padding:2px 4px 2px 4px;
+text-align:center;
+}
+
+footer a,footer span {
+color:#2D6A89;
+}
+
+h1 {
+font-size:22pt;
+color:#949494;
+}
+
+.form {
+margin:20px 0 0 120px;
+}
+
+.form p {
+margin:0 0 4px 0;
+}
+
+.form label {
+float:left;
+margin:6px 0 0 0;
+position:absolute;
+color:#a9a9a9;
+}
+
+.form input, .form textarea, .form  select {
+position:relative;
+margin-left:160px;
+padding:9px;
+border:solid 1px #E5E5E5;
+outline:0;
+font:normal 13px/100% Verdana,Tahoma,sans-serif;
+width:380px;
+resize:none;
+}
+
+.form select {
+width:400px;
+}
+
+.form textarea {
+width:400px;
+max-width:400px;
+height:150px;
+line-height:150%;
+}
+
+.form input:hover,.form textarea:hover,.form input:focus,.form textarea:focus {
+border-color:#ccc;
+}
+
+/*filter*/
+
+.filter {
+margin:20px 0 20px 0;
+}
+
+.filter p {
+margin:0 0 4px 0;
+}
+
+.filter label {
+float:left;
+margin:-16px 0 0 14px;
+position:absolute;
+color:#a9a9a9;
+}
+
+.filter input, .filter textarea, .filter  select {
+position:relative;
+margin-left:10px;
+padding:9px;
+border:solid 1px #E5E5E5;
+outline:0;
+font:normal 13px/100% Verdana,Tahoma,sans-serif;
+resize:none;
+width:100px;
+}
+
+.filter input:hover,.filter textarea:hover,.filter input:focus,.filter textarea:focus {
+border-color:#ccc;
+}
+
+input.submit {
+width:150px;
+color:#eee;
+text-transform:uppercase;
+margin-top:10px;
+background-color:#18a5cc;
+border:none;
+background:-webkit-gradient(linear,0% 0%,0% 100%,from(#18a5cc),to(#0a85a8));
+background:-moz-linear-gradient(25% 75% 90deg,#0a85a8,#18a5cc);
+}
+
+input.submit:hover {
+cursor:pointer;
+}
+
+input.filter{
+float:right;
+margin:5px -20px 0 0 ;
+width:90px;
+}
+table.data {
+width:960px;
+border:0;
+margin-bottom:20px;
+border-collapse:collapse;
+font-size:12px;
+
+}
+
+table.data thead th {
+font-size:13px;
+font-weight:bold;
+text-align:left;
+padding:10px;
+background-color:#f5f5f5;
+color:#fff;
+border-top:1px solid #ccc;
+border-bottom:1px solid #ccc;
+}
+
+table.display thead th {
+color:#3681A4;
+background-color:#f5f5f5 !important;
+}
+
+table.data td {
+vertical-align:top;
+}
+table.data tbody tr td{
+border-bottom:1px dotted #ccc;
+}
+
+table.data tbody tr.normal td{
+background:#fff;
+}
+
+table.data tbody tr.normal:hover td{
+background:#fafafa;
+}
+table.data tbody tr.inactive td{
+background:#FFE1E1;
+}
+
+
+table.data th {
+padding:10px 0;
+}
+
+table.data tbody td {
+padding:10px;
+}
+
+table.data tr.even td {
+background:#F9F9F9;
+}
+
+table.data.stripe tr:nth-child(odd) td {
+background-color:#F6F6F6;
+}
+
+table.data.stripe tr:nth-child(even) td {
+background-color:#FFF;
+}
+
+#big_stats {
+width:960px;
+padding:0;
+float:left;
+margin:30px 0;
+}
+
+.stat {
+width:210px;
+height:90px;
+padding:0 10px;
+float:left;
+position:relative;
+border-left:1px dotted #CCC;
+}
+
+.stat:first-child {
+border:none;
+}
+
+.stat h4 {
+font-size:12px;
+font-weight:bold;
+text-transform:uppercase;
+color:#999;
+margin-bottom:1.5em;
+}
+
+.stat .value {
+font-size:56px;
+font-weight:bold;
+color:#222;
+line-height:1em;
+}
+
+.stat .view_all {
+font-size:11px;
+position:absolute;
+right:20px;
+bottom:12px;
+}
+
+.search{
+    position:relative;
+    float:right;
+    margin:-46px 14px 0 0;
+}
+.search input[type="text"]{
+    padding:4px;
+    border:1px solid #3681A4;
+    margin:0;
+}
+.search input[type="submit"]{
+    padding:4px;
+    color:#fff;
+    font-weight:bolder;
+    background:#3681A4;
+    border:1px solid #2D6A89;
+    margin:0;
+    cursor:pointer;
+
+}
+
+.search select{
+    padding:3px;
+    border:1px solid #3681A4;
+    margin:0;
+}
+
+/* tooltips */
+[data-tip] {
+    position:relative;
+}
+
+[data-tip]:before {
+    content:'';
+    display:none;
+    border:5px solid #1a1a1a;
+    border-top-color:#1a1a1a;
+    border-right-color:transparent;
+    border-bottom-color:transparent;
+    border-left-color:transparent;
+    position:absolute;
+    top:-7px;
+    left:10px;
+    z-index:8;
+    font-size:0;
+    line-height:0;
+    width:0;
+    height:0;
+}
+
+[data-tip]:after {
+    display:none;
+    content:attr(data-tip);
+    position:absolute;
+    top:-35px;
+    left:0;
+    padding:5px 8px;
+    background:#1a1a1a;
+    color:#fff;
+    z-index:9;
+    font-size:.75em;
+    height:18px;
+    line-height:18px;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+    white-space:nowrap;
+    word-wrap:normal;
+}
+
+[data-tip]:hover:before,[data-tip]:hover:after {
+    display:block;
+}
+
+.arrow-center[data-tip]:before {
+    left:50%;
+    margin-left:-4.5px;
+}
