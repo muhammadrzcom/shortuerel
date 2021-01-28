@@ -1,0 +1,257 @@
+#wrapper {
+    width:700px;
+    height:420px;
+    position:absolute;
+    left:50%;
+    top:30px;
+    margin-left:-350px;
+}
+
+#wrapper header {
+    margin:0;
+}
+
+#wrapper header #logo {
+    float:left;
+    width:304px;
+    height:44px;
+    margin:0 0 0 52px;
+    background-image:url(../images/logo.png);
+}
+
+#wrapper header #logo a {
+    width:100%;
+    height:100%;
+    display:block;
+    background:transparent!important;
+    text-indent:-9999px;
+}
+
+#wrapper header p {
+	font: 14px ColaborateLightRegular;
+	padding:8px 0;
+}
+
+#wrapper header p a,a:visited, a:active {
+	color:#009cff;
+    text-decoration:underline;
+    padding: 0;
+}
+
+#wrapper header p a:hover {
+    text-decoration:none;
+    background:none;
+}
+
+#wrapper footer a,a:active,a:visited {
+    color:#000;
+    text-decoration:none;
+    padding:0 2px;
+    outline:0;
+}
+
+#wrapper footer a:hover {
+    background:rgba(0,0,0,0.1);
+}
+
+#wrapper #main {
+    float:left;
+    width:668px;
+    height:84px;
+    background:#fff;
+    border:2px solid rgba(0,0,0,0.3);
+    margin:37px 22px 0;
+}
+
+#wrapper footer {
+    width:100%;
+    float:left;
+    margin-top:85px;
+    text-align:center;
+}
+
+#wrapper footer p {
+    text-align:center;
+    font-size:16pt;
+    color:#c3c3c3;
+}
+
+#wrapper .smallerletter {
+    text-align:center;
+    font-size:14pt;
+    color:#c3c3c3;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+#wrapper .footertext {
+	margin:30px 0;
+}
+
+#wrapper .footertext p {
+	font-size: 14px;
+	font-family:ColaborateLightRegular, Arial, sans-serif;
+	padding:8px 0;
+	color:#000;
+}
+
+#wrapper .footertext p b {
+	font-weight:bold;
+}
+
+input[type="text"]#url {
+    width:548px;
+    height:63px;
+    font-family:ColaborateLightRegular, Arial, sans-serif;
+    font-size:34pt;
+    border:0;
+    color:#808080;
+    padding:10px 20px;
+    letter-spacing:-2px;
+    line-height:63px;
+}
+
+.inputaData{
+    position:absolute;    
+    font-family:ColaborateLightRegular, Arial, sans-serif;
+    font-size:15pt;
+    border:1px solid rgba(0,0,0,0.2);
+    color:#808080;
+    padding:10px 20px;
+    letter-spacing:-2px;
+    line-height:24px;
+    top:260px;
+    height:24px;        
+}
+
+input[type="text"]#custom {
+    right:7px;
+    width:160px;
+    height:24px;
+}
+
+input[type="text"]#password {
+    left:22px;
+    width:100px;
+}
+input[type="number"]#uses {
+    position:absolute;
+    left:173px;
+    width:55px;
+    text-align:left;
+}
+
+input[type="text"]#expire {
+    top:260px;
+    left:277px;
+    width:75px;        
+}
+
+input[type="checkbox"]{
+	display:none;
+}
+
+.checkbox{
+	position:absolute;
+	top:261px;
+	left:402px;    
+	width:42px;
+	padding:10px 20px;
+	text-align:center;
+	color:#ffffff;
+	line-height:24px;
+	cursor:pointer;
+}
+
+.checkbox label{
+    display:block;
+    cursor:pointer;
+}
+
+.checked{
+	background:#9ACD32;
+}
+
+.unchecked{
+	background:#ff0000;
+}
+
+input[type="button"],input[type="submit"] {
+    width:49px;
+    height:49px;
+    position:absolute;
+    border:0;
+    background:transparent;
+    text-indent:-9999px;
+    right:30px;
+    top:180px;
+}
+
+input[type="button"]:hover,input[type="submit"]:hover {
+    cursor:pointer;
+}
+
+input[type="button"].normal,input[type="submit"].normal,input[type="button"].loading,input[type="submit"].loading {
+    background-image:url(../images/button.gif);
+    background-repeat:no-repeat;
+}
+
+input[type="button"].normal:hover,input[type="submit"].normal:hover {
+    background-position:0 -49px;
+}
+
+input[type="button"].loading,input[type="submit"].loading {
+    background-position:0 -98px;
+    cursor:default;
+}
+
+#qrCode {
+    position:absolute;
+    top:10px;
+    right:-22px;
+}
+
+#qrCode .qrTooltip {
+    position:relative;
+    width:120px;
+    height:120px;
+    margin:0;
+    text-align:center;
+    font:140px/200px Arial, sans-serif;
+    color:#eee;
+    background:#eee;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+
+#qrCode .qrTooltip:before {
+    content:"";
+    position:absolute;
+    bottom:-20px;
+    left:42px;
+    border-width:0 0 20px 30px;
+    border-style:solid;
+    border-color:transparent #eee;
+}
+
+#qrCode .qrTooltip:hover {
+    cursor:pointer;
+}
+
+#info p {
+    padding:4px 6px;
+    background:rgba(0,0,0,0.7);
+    width:300px;
+    height:auto;
+    text-align:center;
+    font-size:16pt;
+    color:#fff;
+    overflow:hidden;
+    position:absolute;
+    right:20px;
+    top:125px;
+}
+
+#wrapper footer .ads a:hover {
+	background:none;
+}
