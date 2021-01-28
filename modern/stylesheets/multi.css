@@ -1,0 +1,246 @@
+#wrapper {
+    width:700px;
+    height:420px;
+    position:absolute;
+    left:50%;
+    top:1px;
+    margin-left:-350px;
+}
+
+#wrapper header {
+    margin:0;
+}
+
+#wrapper header #logo {
+    float:left;
+    width:304px;
+    height:44px;
+    margin:0 0 0 52px;
+    background-image:url(../images/logo.png);
+}
+
+#wrapper header #logo a {
+    width:100%;
+    height:100%;
+    display:block;
+    background:transparent!important;
+    text-indent:-9999px;
+}
+
+#wrapper header p {
+	font: 14px ColaborateLightRegular;
+	padding:8px 0;
+}
+
+#wrapper header p a,a:visited, a:active {
+	color:#009cff;
+    text-decoration:underline;
+    padding: 0;
+}
+
+#wrapper header p a:hover {
+    text-decoration:none;
+    background:none;
+}
+
+#wrapper header h1 {
+    color: #000;
+    font: 22pt ColaborateLightRegular;
+    margin-top: 20px;
+}
+
+#wrapper #mainstats {
+    float:left;
+    width:680px;
+    padding:20px;
+    background:#fff;
+    border:0;
+    margin:5px 0;
+}
+
+#wrapper #main {
+    float:left;
+    width:680px;
+    padding:0;
+    background:#fff;
+    border:0;
+    margin:37px 22px 0;
+}
+
+#wrapper footer {
+    width:100%;
+    float:left;
+    margin-top:30px;
+    text-align:center;
+}
+
+#wrapper footer p {
+    text-align:center;
+    font-size:16pt;
+    color:#c3c3c3;
+}
+
+#wrapper footer a,a:active,a:visited {
+    color:#000;
+    text-decoration:none;
+    padding:0 2px;
+    outline:0;
+}
+
+#wrapper footer a:hover {
+    background:rgba(0,0,0,0.1);
+}
+
+#wrapper .smallerletter {
+    text-align:center;
+    font-size:14pt;
+    color:#c3c3c3;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+#wrapper .footertext {
+	margin:30px 0;
+}
+
+#wrapper .footertext p {
+	font-size: 14px;
+	font-family:ColaborateLightRegular, Arial, sans-serif;
+	padding:8px 0;
+	color:#000;
+}
+
+#wrapper .footertext p b {
+	font-weight:bold;
+}
+
+#main form{
+    margin:0;
+    padding:0;
+}
+#main textarea {
+    width:660px;
+    min-height:80px;
+    max-height:300px;
+    font-family:ColaborateLightRegular, Arial, sans-serif;
+    font-size:14pt;
+    border:2px solid rgba(0,0,0,0.3);
+    color:#808080;
+    padding:10px;
+    resize:vertical;
+    overflow:hidden;
+    margin:0 0 10px 0;
+}
+input[type="text"] {
+    font-family:ColaborateLightRegular, Arial, sans-serif;
+    font-size:15pt;
+    border:1px solid rgba(0,0,0,0.2);
+    color:#808080;
+    padding:10px 20px;
+    letter-spacing:-2px;
+    line-height:24px;
+    height:24px;        
+}
+
+input[type="number"]{
+    font-family:ColaborateLightRegular, Arial, sans-serif;
+    font-size:15pt;
+    border:1px solid rgba(0,0,0,0.2);
+    color:#808080;
+    padding:10px 8px;
+    letter-spacing:-2px;
+    line-height:24px;
+    height:24px;
+    text-align:left;
+    width:90px; 
+}
+
+input[type="text"]#password,input[type="text"]#expire{
+    width:75px;
+	border:1px solid rgba(0,0,0,0.2);
+}
+
+label{
+    color:#000;
+    cursor:pointer;
+}
+input[type="checkbox"]{
+    cursor:pointer;
+}
+input[type="submit"]{
+    right:0;
+    padding:10px 15px;
+}
+
+input[type="password"] {
+    font-family:ColaborateLightRegular, Arial, sans-serif;
+    font-size:15pt;
+    border:1px solid rgba(0,0,0,0.2);
+    color:#808080;
+    padding:12px 8px 8px 8px;
+    letter-spacing:-2px;
+    line-height:24px;
+    height:24px;
+    width:250px; 
+	margin:0 0 0 175px;       
+}
+
+.button {
+    height:44px;
+    background-color:#00a4fc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15pt;
+	color: #ffffff;
+	background: -moz-linear-gradient(
+		top,
+		#00a4fc 0%,
+		#6296ca);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#00a4fc),
+		to(#086bff));
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border: 1px solid #005ed1;
+    cursor:pointer;
+    line-height:24px;
+}
+
+.info {
+	border:2px solid #eee;
+	margin:5px 0;
+}
+
+#wrapper .info a,a:visited, a:active {
+	color:#009cff;
+    text-decoration:underline;
+    padding: 0;
+}
+
+#wrapper .info a:hover {
+    text-decoration:none;
+    background:none;
+}
+
+.info p {
+    color: #000;
+    margin:4px 0 4px 0; 
+}
+.info p span {
+    font-weight:bold;
+    color:#444;
+}
+.info .qrcode {
+    width:128px;
+    height:128px;
+    float:right;
+}
+
+.info .qrcode a:hover {
+    background:transparent;
+}
+
+#wrapper footer .ads a:hover {
+	background:none;
+}
